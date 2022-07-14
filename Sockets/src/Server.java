@@ -14,7 +14,6 @@ public class Server {
 					Socket client = serverSocket.accept();
 					new ServerThread(client).start();
 					
-//					 new Thread(clientSock).start();
 				}
 				
 			}catch (IOException e){
